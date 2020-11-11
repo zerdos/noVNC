@@ -6,7 +6,7 @@
  * See README.md for usage and integration instructions.
  */
 
-import { initLogging as mainInitLogging } from '../core/util/logging.js';
+import  mainInitLogging  from '../core/util/logging.js';
 
 // init log level reading the logging HTTP param
 export function initLogging(level) {

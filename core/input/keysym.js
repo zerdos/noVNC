@@ -1,6 +1,6 @@
 /* eslint-disable key-spacing */
 
-export default {
+export const KeyTable = {
     XK_VoidSymbol:                  0xffffff, /* Void symbol */
 
     XK_BackSpace:                   0xff08, /* Back space, back char */

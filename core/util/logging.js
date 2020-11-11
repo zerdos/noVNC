@@ -17,7 +17,7 @@ let Info = () => {};
 let Warn = () => {};
 let Error = () => {};
 
-export function initLogging(level) {
+export default function mainInitLogging(level) {
     if (typeof level === 'undefined') {
         level = _logLevel;
     } else {
@@ -53,4 +53,4 @@ export function getLogging() {
 export { Debug, Info, Warn, Error };
 
 // Initialize logging level
-initLogging();
+mainInitLogging();
